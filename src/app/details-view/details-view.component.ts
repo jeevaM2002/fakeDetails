@@ -9,26 +9,7 @@ import { Items } from '../pageDate/items';
   styleUrl: './details-view.component.css'
 })
 export class DetailsViewComponent implements OnInit {
-  item:Items[]= [
-    // {
-    //   id: 0,
-    //   name: '',
-    //   place: '',
-    //   age: 0,
-    //   dob: '',
-    //   phoneNumber: '',
-    //   Company: '',
-    //   StreetAddress: '',
-    //   Postcode: '',
-    //   Country: '',
-    //   City: '',
-    //   CreditCard: {
-    //     Number: '',
-    //     Expiry: '',
-    //     CVV: ''
-    //   }
-    // }
-  ];
+  item:Items[]= [];
 
   constructor(private route: ActivatedRoute, private dataService: DataService, private router: Router) { }
 
