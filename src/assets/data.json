@@ -1,0 +1,5 @@
+[
+    { "id": 1, "name": "John Doe", "place": "New York", "age": 30, "dob": "1993-04-05", "phoneNumber": "123-456-7890" },
+    { "id": 2, "name": "Jane Doe", "place": "Los Angeles", "age": 25, "dob": "1998-02-10", "phoneNumber": "098-765-4321" }
+  ]
+  

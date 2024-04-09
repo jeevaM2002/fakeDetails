@@ -1,0 +1,7 @@
+<ul>
+    <li *ngFor="let item of items">
+      {{ item.name }} - {{ item.place }} - {{ item.age }}
+      <button (click)="goToDetails(item)">Details</button>
+    </li>
+  </ul>
+  
