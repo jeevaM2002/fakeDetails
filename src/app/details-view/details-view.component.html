@@ -1,5 +1,5 @@
-<div *ngIf="item">
-    <h2>{{ item.name }}</h2>
+<div *ngFor="let item of item">
+    <h2>{{ item.name}}</h2>
     <p>Place: {{ item.place }}</p>
     <p>Age: {{ item.age }}</p>
     <p>DOB: {{ item.dob }}</p>

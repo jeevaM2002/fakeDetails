@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../services/data.service';
 import { Router } from '@angular/router';
+import { Items } from '../pageDate/items';
 
 @Component({
   selector: 'app-list-view',
@@ -8,7 +9,7 @@ import { Router } from '@angular/router';
   styleUrl: './list-view.component.css'
 })
 export class ListViewComponent implements OnInit {
-  items: any[] = [];
+  items: Items[] = [];
 
   constructor(private dataService: DataService , private router: Router) { }
 
