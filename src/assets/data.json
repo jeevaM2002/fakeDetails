@@ -11,6 +11,7 @@
       "Postcode": "60642",
       "Country": "USA",
       "City": "Chicago",
+      "gmail":"alexsmith2344@gmail.com",
       "CreditCard": {
         "Number": "4111 1111 1111 1111",
         "Expiry": "12/27",
@@ -29,6 +30,7 @@
       "Postcode": "77002",
       "Country": "USA",
       "City": "Houston",
+      "gmail":"samjordan56@gmail.com",
       "CreditCard": {
         "Number": "5500 0000 0000 0004",
         "Expiry": "11/25",
@@ -47,6 +49,7 @@
       "Postcode": "94107",
       "Country": "USA",
       "City": "San Francisco",
+      "gmail":"leecasey564@gmail.com",
       "CreditCard": {
         "Number": "3400 0000 0000 009",
         "Expiry": "01/26",
@@ -65,6 +68,7 @@
       "Postcode": "98104",
       "Country": "USA",
       "City": "Seattle",
+      "gmail":"ilovereyes454@gmail.com",
       "CreditCard": {
         "Number": "6011 0000 0000 0004",
         "Expiry": "03/28",
@@ -83,6 +87,7 @@
       "Postcode": "33137",
       "Country": "USA",
       "City": "Miami",
+      "gmail":"jamieparkerjn23@gmail.com",
       "CreditCard": {
         "Number": "5105 1051 0510 5100",
         "Expiry": "10/29",

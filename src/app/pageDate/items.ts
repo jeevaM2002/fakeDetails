@@ -11,6 +11,7 @@ export interface Items {
         Postcode:string;
         Country:string;
         City:string;
+        gmail:string;
         CreditCard: {
             Number: string,
             Expiry: string,
