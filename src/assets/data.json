@@ -1,5 +1,93 @@
 [
-    { "id": 1, "name": "John Doe", "place": "New York", "age": 30, "dob": "1993-04-05", "phoneNumber": "123-456-7890" },
-    { "id": 2, "name": "Jane Doe", "place": "Los Angeles", "age": 25, "dob": "1998-02-10", "phoneNumber": "098-765-4321" }
+    {
+      "id": 1,
+      "name": "Alex Smith",
+      "place": "Chicago",
+      "age": 28,
+      "dob": "1995-03-15",
+      "phoneNumber": "312-555-1234",
+      "Company": "Globex Corp",
+      "Street Address": "1234 North Branch St",
+      "Postcode": "60642",
+      "Country": "USA",
+      "City": "Chicago",
+      "Credit Card": {
+        "Number": "4111 1111 1111 1111",
+        "Expiry": "12/27",
+        "CVV": "123"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Sam Jordan",
+      "place": "Houston",
+      "age": 32,
+      "dob": "1991-07-22",
+      "phoneNumber": "713-555-5678",
+      "Company": "Initech",
+      "Street Address": "4321 South Main St",
+      "Postcode": "77002",
+      "Country": "USA",
+      "City": "Houston",
+      "Credit Card": {
+        "Number": "5500 0000 0000 0004",
+        "Expiry": "11/25",
+        "CVV": "321"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Casey Lee",
+      "place": "San Francisco",
+      "age": 26,
+      "dob": "1997-05-30",
+      "phoneNumber": "415-555-9012",
+      "Company": "Hooli",
+      "Street Address": "6789 Pine St",
+      "Postcode": "94107",
+      "Country": "USA",
+      "City": "San Francisco",
+      "Credit Card": {
+        "Number": "3400 0000 0000 009",
+        "Expiry": "01/26",
+        "CVV": "234"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Morgan Reyes",
+      "place": "Seattle",
+      "age": 34,
+      "dob": "1989-01-16",
+      "phoneNumber": "206-555-3456",
+      "Company": "Pied Piper",
+      "Street Address": "1010 Western Ave",
+      "Postcode": "98104",
+      "Country": "USA",
+      "City": "Seattle",
+      "Credit Card": {
+        "Number": "6011 0000 0000 0004",
+        "Expiry": "03/28",
+        "CVV": "456"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Jamie Parker",
+      "place": "Miami",
+      "age": 29,
+      "dob": "1994-09-04",
+      "phoneNumber": "305-555-7890",
+      "Company": "Vehement Capital Partners",
+      "Street Address": "5555 Biscayne Blvd",
+      "Postcode": "33137",
+      "Country": "USA",
+      "City": "Miami",
+      "Credit Card": {
+        "Number": "5105 1051 0510 5100",
+        "Expiry": "10/29",
+        "CVV": "567"
+      }
+    }
   ]
   
