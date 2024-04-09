@@ -1,7 +1,24 @@
-<ul>
-    <li *ngFor="let item of items">
-      {{ item.name }} - {{ item.place }} - {{ item.age }}
-      <button (click)="goToDetails(item)">Details</button>
-    </li>
-  </ul>
-  
+<div class="containerk">
+  <section class="dare">
+  <H1> DO YOU DARE </H1>
+</section>
+
+<section class="dare2">
+    <div class="drop"></div>
+    <div class="wave"></div>
+</section> 
+<!-- <ul class="item">
+  <li *ngFor="let item of items">
+    {{ item.name }} - {{ item.place }} - {{ item.age }}
+    <button (click)="goToDetails(item)">Details</button>
+  </li>
+</ul> -->
+<div class="cards">
+  <div class="card" *ngFor="let item of items">
+    <h1>{{ item.name }}</h1>
+    <h3>{{ item.place }}</h3>
+    <h3>{{ item.phoneNumber}}</h3>
+    <button (click)="goToDetails(item)" >Click for more details</button>
+  </div>
+</div>
+</div>
