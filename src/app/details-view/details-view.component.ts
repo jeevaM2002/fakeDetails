@@ -14,6 +14,7 @@ export class DetailsViewComponent implements OnInit {
   constructor(private route: ActivatedRoute, private dataService: DataService, private router: Router) { }
 
   ngOnInit() {
+    window.scrollTo(0, 0);
     const itemId = Number(this.route.snapshot.paramMap.get('id'));
     this.dataService.getData().subscribe(data => {
       const foundItem= data.find(i => i.id === itemId);
