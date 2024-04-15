@@ -6,12 +6,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ListViewComponent } from './list-view/list-view.component';
 import { DetailsViewComponent } from './details-view/details-view.component';
+import { FooterComponent } from './footer/footer.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     ListViewComponent,
-    DetailsViewComponent
+    DetailsViewComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
