@@ -2,32 +2,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-.containerk{
+.containerk {
     min-height: 100vh;
     background-color: black;
 }
-html, body, h1  {
+
+html, body, h1 {
   padding: 0;
   margin: 0;
   color: white;
   text-align: center;
-   
 }
 
-  .dare h1 {
-      color: white;
-      font-family: 'Eater', cursive;
-      font-size: 50px;
-      letter-spacing: 20px;
-  }
-
+.dare h1 {
+  color: white;
+  font-family: 'Eater', cursive;
+  font-size: 50px;
+  letter-spacing: 20px;
+}
 
 .dare {
-    background-color: red;
-    height: 100px;
+  background-color: red;
+  height: 100px;
 }
 
-
+@media (max-width: 768px) {
+  .dare h1 {
+    font-size: 32px; 
+    letter-spacing: 5px; 
+  }
+}
 
 .dare2 {
     background-color: black;
