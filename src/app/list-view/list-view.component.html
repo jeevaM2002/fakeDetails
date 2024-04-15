@@ -7,12 +7,13 @@
     <div class="drop"></div>
     <div class="wave"></div>
 </section> 
-<div class="cards">
-  <div class="card" *ngFor="let item of items">
+<div class="cards text-gray-400">
+  <div class="card title-font text-gray-400" *ngFor="let item of items">
     <h1>{{ item.name }}</h1>
-    <h3>{{ item.gmail }}</h3>
-    <h3>{{ item.phoneNumber}}</h3>
-    <button (click)="goToDetails(item)" >Click for more details</button>
+    <h3 class="mb-8 leading-relaxed">{{ item.gmail }}</h3>
+    <h3 class="mb-8 leading-relaxed">{{ item.phoneNumber}}</h3>
+    <!-- <button (click)="goToDetails(item)" >Click for more details</button> -->
+    <button (click)="goToDetails(item)" class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Click for more details</button>
   </div>
 </div>
 </div>
